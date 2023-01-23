@@ -1,0 +1,8 @@
+Graphical User Interfaces (GUI) and the Command-Line Interface (CLI)
+
+GUI is a method of interacting with computers primarily using visual displays.
+CLI is a method of interacting primarily using text-based commands and not pictures.
+The GUI is generally easier to use and more user friendly because the user does not
+need to know the exact commands, only which selections to make.
+The CLI lets you do more things, but you need to know what to tell it to do to get
+there, which makes it harder to use because of the extra precision required.

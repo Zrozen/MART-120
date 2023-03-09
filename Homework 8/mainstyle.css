@@ -1,0 +1,23 @@
+ span.cyanColor{
+        color:cyan;
+        font-family:Garamond;
+        font-size:24px;
+    }
+
+span.readColor{
+        color:cyan;
+        font-family:Garamond;
+        font-size:22px;
+    }
+
+#specificColor {
+  color: blue;
+  font-family: verdana;
+  font-size: 24px;
+}
+
+#specificColor2 {
+  color: green;
+  font-family: arial;
+  font-size: 24px;
+}

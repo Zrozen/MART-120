@@ -1,0 +1,82 @@
+
+
+<html>
+    <head>
+        <title>Third page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<style> 
+            span{
+		color:cyan;
+                background-color:c31ee4;
+            }
+        </style>
+<script>
+	function checkboxes()
+	{
+		var firstName = document.getElementById("fName").value;
+		if(firstName =="") 
+        {
+            document.getElementById("fName").style.backgroundColor = "red";
+            document.getElementById("fName").focus();
+           alert('Name is required')
+        }
+        else {document.getElementById("fName").style.backgroundColor = "green";}
+        
+	
+		var email = document.getElementById("lName").value;
+		if(email =="") 
+        {
+            document.getElementById("lName").style.backgroundColor = "red";
+            document.getElementById("lName").focus();
+            alert('Email is required')
+        }
+        else {document.getElementById("lName").style.backgroundColor = "green";}
+        document.getElementById("a1").required;
+        
+        
+        var checkedYes=document.getElementById("a1").checked;
+        if (checkedYes== false)
+        {
+        alert ('Agree to agreement')
+        }
+	}
+    
+
+</script>
+    </head>
+    <body>
+	<span>
+        <h1>Contact</h1>
+        <p>Fill out below.</p>
+        <br />
+          <form action="nextPage.html" type="Post">
+    Name: <input type="text" id="fName"required><br>
+    <br/>
+    <br/>
+    Email: <input type="text" id="lName"required><br>
+   <h3> Accept terms of agreement?</h3>
+  
+    <input type="radio" id="a1" name="an" value="Yes" required>Yes<br>
+    <input type="radio" id="a2"name="an" value="No">No<br>
+    <button id="mySubmit" type="button" onclick= 'checkboxes();'>Submit</button>
+  </form>
+<br/>
+<br/>
+<br/>
+<br/>
+<button type="button" class="btn btn-info">Info</button>
+<br /> 
+<br/>
+<br/>
+<br/>
+<br/>
+<a href= "Homepage.html"> Homepage</a>
+<br/>
+<a href= "Second page.html"> Favorit book</a>
+</span>
+    </body>
+</html>
+
